@@ -52,10 +52,10 @@
 		F7C2038A2131AD3400C3FC77 /* myAlarm */ = {
 			isa = PBXGroup;
 			children = (
-				F7C203AA2131B1F600C3FC77 /* Resources */,
 				F7C203A92131B1E300C3FC77 /* Views */,
 				F7C203A72131B1D500C3FC77 /* Models */,
 				F7C203A82131B1DB00C3FC77 /* Controllers */,
+				F7C203AA2131B1F600C3FC77 /* Resources */,
 			);
 			path = myAlarm;
 			sourceTree = "<group>";
@@ -125,6 +125,7 @@
 				TargetAttributes = {
 					F7C203872131AD3400C3FC77 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -317,7 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.myAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -335,7 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.myAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
